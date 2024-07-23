@@ -8,6 +8,8 @@ git config --global user.name "$name"
 git config --global user.email "$email"
 ssh-keygen -t ed25519 -C "$email"
 cat /home/juanc/.ssh/github.pub
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/github
 echo "when add ssh key hit enter"
 read ok
 sh -c "$(curl -sSfL https://release.solana.com/v1.18.18/install)"
