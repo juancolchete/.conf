@@ -6,6 +6,7 @@ read email
 git config --global user.name "$name"
 git config --global user.email "$email"
 ssh-keygen -t ed25519 -C "$email"
+cat /home/juanc/.ssh/github
 echo "when add ssh key hit enter"
 read ok
 fish
