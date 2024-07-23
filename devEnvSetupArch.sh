@@ -20,9 +20,7 @@ rm ~/.config/fish/config.fish
 LV_BRANCH='release-1.4/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.4/neovim-0.9/utils/installer/install.sh)
 echo source "\$HOME/.cargo/env.fish" >> ~/.config/fish/config.fish
 echo export PATH="\$HOME/.local/bin:\$PATH" >> ~/.config/fish/config.fish
-echo export PATH="\$HOME/.local/share/solana/install/active_release/bin:\$PATH" >> ~/.config/fish/config.fish
 echo source ~/.asdf/asdf.fish >> ~/.config/fish/config.fish
-echo export PATH="\$HOME/.avm/bin:\$PATH" >> ~/.config/fish/config.fish
 echo export PATH="\$HOME/.local/bin:\$PATH" >> ~/.config/fish/config.fish
 echo export PATH="\$HOME/.local/share/solana/install/active_release/bin:\$PATH" >> ~/.config/fish/config.fish
 echo source ~/.asdf/asdf.fish >> ~/.config/fish/config.fish
