@@ -1,5 +1,5 @@
 # run it direcly on fish
-sudo pacman -S docker-buildx docker neovim git make fish ripgrep python-pynvim openssh 
+sudo pacman -S docker-buildx docker neovim git make fish ripgrep python-pynvim openssh lazygit
 echo "git username:"
 read name
 echo "git email:"
