@@ -10,7 +10,6 @@ cat /home/juanc/.ssh/github
 echo "when add ssh key hit enter"
 read ok
 fish
-git clone git@github.com:juancolchete/LunarVimLinux.git ~/.config/lvim
 sh -c "$(curl -sSfL https://release.solana.com/v1.18.18/install)"
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.14.0
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -26,3 +25,5 @@ source ~/.config/fish/config.fish
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 corepack enable
 asdf reshim nodejs
+rm ~/.config/lvim 
+git clone git@github.com:juancolchete/LunarVimLinux.git ~/.config/lvim
