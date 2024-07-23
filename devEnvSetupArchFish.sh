@@ -7,5 +7,3 @@ source ~/.config/fish/config.fish
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 corepack enable
 asdf reshim nodejs
-rm ~/.config/lvim 
-git clone git@github.com:juancolchete/LunarVimLinux.git ~/.config/lvim
