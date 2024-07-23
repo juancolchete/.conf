@@ -15,6 +15,8 @@ git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.14.0
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 echo /usr/local/bin/fish | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
+rm -rf /home/juanc/.local/share/lunarvim.old
+rm ~/.config/fish/config.fish
 LV_BRANCH='release-1.4/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.4/neovim-0.9/utils/installer/install.sh)
 echo source "\$HOME/.cargo/env.fish" >> ~/.config/fish/config.fish
 echo export PATH="\$HOME/.local/bin:\$PATH" >> ~/.config/fish/config.fish
