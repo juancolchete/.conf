@@ -1,4 +1,4 @@
-sudo pacman -S docker-buildx docker neovim git make fish ripgrep python-pynvim
+sudo pacman -S docker-buildx docker neovim git make fish ripgrep python-pynvim openssh 
 echo "git username:"
 read name
 echo "git email:"
