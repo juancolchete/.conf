@@ -1,4 +1,4 @@
-sudo pacman -S docker-buildx docker neovim git make fish ripgrep 
+sudo pacman -S docker-buildx docker neovim git make fish ripgrep python-pynvim
 sh -c "$(curl -sSfL https://release.solana.com/v1.18.18/install)"
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 corepack enable
